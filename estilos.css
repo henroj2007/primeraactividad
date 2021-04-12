@@ -1,0 +1,79 @@
+*{ 
+    margin: 10px;
+    padding: 0%;
+}
+
+header{
+    width: 90%;
+    overflow:hidden;
+    background: black;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    margin: solid red;
+}
+
+header nav{
+    float: right;
+    line-height: 100px;
+}
+
+header nav a{
+    display: inline-block;
+    color: red;
+    text-decoration: white;
+    padding: 15px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.wrapper{
+    width: 40%;
+    max-width: 1000px;
+    margin:auto;
+    overflow:hidden;
+    }
+
+.sombra {
+   display: block;
+   position: relative;
+   box-shadow: gray;
+   
+}
+
+.cuadradosolido{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: black;
+    border: 5px solid pink;
+}
+
+.cuadrocolores{
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid blue;
+    border-top: 50px solid yellow;
+    border-bottom: 50px solid red; 
+}
+
+.circulocolores{
+    width:0; 
+    height:0; 
+    border-right: 50px solid transparent; 
+    border-top: 50px solid yellow; 
+    border-left: 50px solid blue; 
+    border-bottom: 50px solid red; 
+    -moz-border-radius: 100%; 
+    -webkit-border-radius: 100%; 
+    border-radius: 100%;
+
+}
